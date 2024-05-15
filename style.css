@@ -90,3 +90,13 @@ nav ul li {
 .sections p, .sections ul {
     padding: 0.5rem;
 }
+
+footer {
+    background-color: darkgreen;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
