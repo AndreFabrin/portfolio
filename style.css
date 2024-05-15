@@ -5,6 +5,8 @@
     /* padding 0 because ul have a default padding left, and other reasons */
     --azul: rgb(60, 128, 173);
     --verde-fundo: rgb(60, 189, 90);
+    --verde-claro: rgb(88, 219, 101);
+    --verde-escuro: rgb(30, 99, 41);
     font-size: 18px;
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -39,10 +41,11 @@ h1 {
     display: flex;
     align-items: center;
     padding-left: 2rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     letter-spacing: 2px;
     font-variant: small-caps;
+    color: lightblue;
 }
 
 nav {
@@ -59,8 +62,10 @@ nav ul {
     flex-direction: row;
 }
 
-nav ul li {
+nav ul li,
+nav ul li a {
     letter-spacing: 5px;
+    color: aqua;
 }
 
 .sections {
@@ -73,9 +78,10 @@ nav ul li {
 }
 
 .sections h2 {
-    background-color:antiquewhite;
+    background-color: var(--verde-escuro);
     font-size: 1.2rem;
     padding: 1rem;
+    color: white;
 }
 
 .sections p,
@@ -85,18 +91,22 @@ nav ul li {
     text-align: left;
     flex-direction: column;
     background-color: var(--azul);
+    color: aliceblue;
 }
 
-.sections p, .sections ul {
+.sections p,
+.sections ul {
     padding: 0.5rem;
 }
 
-footer {
+#information {
+    padding: 1rem;
     background-color: darkgreen;
-}
-
-.footer-info {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    color: white;
 }
