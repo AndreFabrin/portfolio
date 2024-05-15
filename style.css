@@ -20,15 +20,25 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: green;
 }
 
 .title {
     width: 50%;
     display: flex;
     justify-content: start;
+
+}
+
+#perfil {
+    border-radius: 50%;
+    width: 6rem;
 }
 
 h1 {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: 2px;
@@ -54,29 +64,29 @@ nav ul li {
 }
 
 .sections {
+    background-color: aliceblue;
     margin: 5% 10%;
     display: flex;
     justify-content: center;
     align-items: left;
     flex-direction: column;
-
 }
 
 .sections h2 {
+    background-color:antiquewhite;
     font-size: 1.2rem;
-    margin: 2rem;
+    padding: 1rem;
 }
 
 .sections p,
 .sections ul,
 .sections ul li {
-    padding: 0.5rem;
     display: flex;
     text-align: left;
     flex-direction: column;
     background-color: var(--azul);
 }
 
-.sections ul li {
-    margin-left: 0;
+.sections p, .sections ul {
+    padding: 0.5rem;
 }
