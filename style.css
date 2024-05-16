@@ -6,7 +6,7 @@
     --azul: rgb(60, 128, 173);
     --commom-pattern: rgb(250, 218, 221);
     --important-pattern: rgb(0, 0, 80);
-    --background: rgb(201,207,212);
+    --background: rgb(201, 207, 212);
     font-size: 18px;
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -95,7 +95,7 @@ nav ul li a {
 }
 
 .sections p,
-.sections ul {
+.sections ul li {
     padding: 0.5rem;
 }
 
